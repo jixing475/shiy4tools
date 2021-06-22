@@ -1,6 +1,8 @@
 pandoc: 2.11.4
 pkgdown: 1.6.1.9001
 pkgdown_sha: 51268b0d9cb0588d7a6404a2b8ef4ee19c435e89
-articles: {}
-last_built: 2021-06-22T05:06Z
+articles:
+  rmarkdown_shiny: rmarkdown_shiny.html
+  shiny_step_by_step: shiny_step_by_step.html
+last_built: 2021-06-22T07:35Z
 

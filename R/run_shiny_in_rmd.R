@@ -17,7 +17,7 @@
 #' @export 
 #' @importFrom rmarkdown render
 run_shiny_in_rmd <- function(){
-  rmarkdown::run("vignettes/rmarkdown_shiny.Rmd", 
+  rmarkdown::run("dev/rmarkdown_shiny.Rmd", 
                  shiny_args = list(port = 8241))
 }
 # run_shiny_in_rmd()

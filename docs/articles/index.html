@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Run the Shiny Application — run_app • shiy4tools</title>
+<title>Articles • shiy4tools</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,7 @@
 
 
 
-<meta property="og:title" content="Run the Shiny Application — run_app" />
-<meta property="og:description" content="Run the Shiny Application" />
+<meta property="og:title" content="Articles" />
 
 
 
@@ -67,7 +66,7 @@
   <body data-spy="scroll" data-target="#toc">
     
 
-    <div class="container template-reference-topic">
+    <div class="container template-article-index">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -128,67 +127,20 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Run the Shiny Application</h1>
-    <small class="dont-index">Source: <a href='https://github.com/jixing475/shiy4tools/blob/master/R/run_app.R'><code>R/run_app.R</code></a></small>
-    <div class="hidden name"><code>run_app.Rd</code></div>
+      <h1>Articles</h1>
     </div>
 
-    <div class="ref-description">
-    <p>Run the Shiny Application</p>
+    <div class="section ">
+      <h3>All vignettes</h3>
+      <p class="section-desc"></p>
+
+      <dl>
+        <dt><a href="rmarkdown_shiny.html">Customer Churn Report</a></dt>
+        <dd></dt>
+        <dt><a href="shiny_step_by_step.html">shiny_step_by_step</a></dt>
+        <dd></dt>
+      </dl>
     </div>
-
-    <div class="ref-usage sourceCode"><pre class='sourceCode r'><code><span class='fu'>run_app</span><span class='op'>(</span>
-  onStart <span class='op'>=</span> <span class='cn'>NULL</span>,
-  options <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/list.html'>list</a></span><span class='op'>(</span><span class='op'>)</span>,
-  enableBookmarking <span class='op'>=</span> <span class='cn'>NULL</span>,
-  uiPattern <span class='op'>=</span> <span class='st'>"/"</span>,
-  <span class='va'>...</span>
-<span class='op'>)</span></code></pre></div>
-
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>onStart</th>
-      <td><p>A function that will be called before the app is actually run.
-This is only needed for <code>shinyAppObj</code>, since in the <code>shinyAppDir</code>
-case, a <code>global.R</code> file can be used for this purpose.</p></td>
-    </tr>
-    <tr>
-      <th>options</th>
-      <td><p>Named options that should be passed to the <code>runApp</code> call
-(these can be any of the following: "port", "launch.browser", "host", "quiet",
-"display.mode" and "test.mode"). You can also specify <code>width</code> and
-<code>height</code> parameters which provide a hint to the embedding environment
-about the ideal height/width for the app.</p></td>
-    </tr>
-    <tr>
-      <th>enableBookmarking</th>
-      <td><p>Can be one of <code>"url"</code>, <code>"server"</code>, or
-<code>"disable"</code>. The default value, <code>NULL</code>, will respect the setting from
-any previous calls to  <code><a href='https://rdrr.io/pkg/shiny/man/enableBookmarking.html'>enableBookmarking()</a></code>. See <code><a href='https://rdrr.io/pkg/shiny/man/enableBookmarking.html'>enableBookmarking()</a></code>
-for more information on bookmarking your app.</p></td>
-    </tr>
-    <tr>
-      <th>uiPattern</th>
-      <td><p>A regular expression that will be applied to each <code>GET</code>
-request to determine whether the <code>ui</code> should be used to handle the
-request. Note that the entire request path must match the regular
-expression in order for the match to be considered successful.</p></td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td><p>arguments to pass to golem_opts. 
-See `?golem::get_golem_options` for more details.</p></td>
-    </tr>
-    </table>
-
-
-  </div>
-  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
-    <nav id="toc" data-toggle="toc" class="sticky-top">
-      <h2 data-toc-skip>Contents</h2>
-    </nav>
   </div>
 </div>
 
