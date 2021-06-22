@@ -1,0 +1,19 @@
+---
+title: "shiny_step_by_step"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{shiny_step_by_step}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(shiy4tools)
+```

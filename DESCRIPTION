@@ -9,11 +9,16 @@ Imports:
     golem (>= 0.3.1.9000),
     shiny (>= 1.6.0.9001),
     bookdown,
-    here
+    here,
+    dplyr,
+    rmarkdown
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Suggests: devtools,
+Suggests: 
+    knitr,
+    devtools,
     git2r
 URL: https://github.com/jixing475/shiy4tools
 BugReports: https://github.com/jixing475/shiy4tools/issues
+VignetteBuilder: knitr
