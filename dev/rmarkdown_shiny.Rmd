@@ -22,12 +22,28 @@ knitr::opts_chunk$set(
 ```
 
 📌 [Add Shiny to Rmarkdown | R-bloggers](https://www.r-bloggers.com/2021/02/add-shiny-to-rmarkdown/)
+# How
 
-# Problem
+turn your scripts to function 
+turn function to shiny module
+use shiny module
+
+# use shiny module example
+```{r}
+## To be copied in the UI
+mod_load_data_ui("load_data_1")
+    
+## To be copied in the server
+mod_load_data_server("load_data_1")
+```
+
+# example 2
+
+## Problem
 
 Customer Churn is impacting revenue sales. What can we do?
 
-# Solution
+## Solution
 
 My analysis suggests that we can __reduce churn by moving customers to longer term contracts.__
 

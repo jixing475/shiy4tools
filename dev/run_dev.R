@@ -13,5 +13,4 @@ golem::document_and_reload()
 
 
 devtools::load_all(".")
-
-run_data_analysis()
+run_shiny_in_rmd()
